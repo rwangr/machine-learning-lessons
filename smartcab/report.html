@@ -11901,7 +11901,7 @@ div#notebook {
 <ul>
 <li>出租车没有移动；</li>
 <li>驾驶代理程序基于交通情况获得奖励；</li>
-<li>车前红灯或者有来车，获得+2的奖励；车前绿灯或无来车，获得-5的奖励。</li>
+<li>红灯有来车，或红灯无来车，或绿灯有来车时，获得+2的奖励；绿灯无来车时，获得-5的奖励。</li>
 </ul>
 
 </div>
@@ -11939,7 +11939,7 @@ div#notebook {
 <li>Flag:<ul>
 <li>env.create_agent()的learning: 设置为True时强制代理程序使用Q-learning；</li>
 <li>env.set_primary_agent()的enforce_deadline: 设置为True时，强制为出租车到达目的地设置时间限制；</li>
-<li>Simulator()的update_delay: 设置两个action之间的时间间隔。</li>
+<li>Simulator()的update_delay: 设置试验中每步之间的时间。</li>
 </ul>
 </li>
 <li>Act()函数；</li>
