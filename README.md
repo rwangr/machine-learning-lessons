@@ -9,3 +9,5 @@ project 2: finding_donors
 project 3: creating_customer_segments
 
 project 4: smartcab
+
+project 5: image_classification
